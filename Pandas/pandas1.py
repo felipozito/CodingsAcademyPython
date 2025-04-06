@@ -15,11 +15,11 @@ print(df)
 print("\n")
 
 # Desde un archivo CSV (descomentar para usar)
-df_csv = pd.read_csv('Libro1.csv')
+df_csv = pd.read_csv('Pandas/Employers.csv')
 print(df_csv)
 
 # Desde un archivo Excel (descomentar para usar)
-df_excel = pd.read_excel('Libro1.xlsx')
+df_excel = pd.read_excel('/Pandas/Libro1.xlsx')
 print(df_excel)
 
 # 2. Información básica del DataFrame
